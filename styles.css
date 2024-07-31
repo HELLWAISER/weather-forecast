@@ -232,3 +232,24 @@ body {
   justify-content: center;
   margin-right: 20px;
 }
+
+
+/* ====================================================================================== */
+/* ====================================================================================== */
+
+/* Estilos para telas menores que 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .custom-input {
+    width: 75%;
+  }
+}
